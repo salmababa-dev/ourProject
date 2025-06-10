@@ -12,7 +12,7 @@ export default function Layoutss() {
           <ul className="flex space-x-8">
             {[
                  { to: '/dashboard', label: 'Dashboard' },              
-               { to: '/list', label: 'Employer' },
+              
              
             ].map(({ to, label }) => (
               <li key={to}>
